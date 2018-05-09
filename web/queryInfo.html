@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>考勤信息</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/flexible.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <div class="pageHeader">
+      考勤信息
+    </div>
+    <div class="content">
+      <!--左侧-->
+      <div class="c-left fl">
+        <div class=" timer-shaft"><span>4</span></div>
+        <div class=" timer-shaft"><span>作业</span></div>
+      </div>
+      <!--右侧-->
+      <div class="c-right fr">
+        <div class="r-top">
+          <span>3.7</span>
+          <span class="forWork">出勤</span>
+          <span class="finish"><img src="images/icon32.png" alt=""></span>
+        </div>
+        <!--图片-->
+        <div class="r-img">
+          <img src="images/img-bg.png" alt="">
+          <img src="images/img-bg.png" alt="">
+          <img src="images/img-bg.png" alt="">
+        </div>
+        <!--星级评价-->
+        <div id="starRating">
+          <p class="photo clearfix">
+            <span><i class="high"></i><i class="nohigh"></i></span>
+            <span><i class="high"></i><i class="nohigh"></i></span>
+            <span><i class="high"></i><i class="nohigh"></i></span>
+            <span><i class="high"></i><i class="nohigh"></i></span>
+            <span><i class="high"></i><i class="nohigh"></i></span>
+          </p>
+        </div>
+        <!--文字-->
+        <div class="r-word">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+          sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus.
+        </div>
+        <!--家长反馈-->
+        <div class="r-tickling">
+          <div class="tickling-tit">
+            家长反馈
+          </div>
+          <textarea name="" id="tear"></textarea>
+          <!--cols="34" rows="6"-->
+          <input type="submit" value="确定" id="sub">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.12.4.js"></script>
+
+<script src="js/style.js"></script>
+
+</body>
+</html>
